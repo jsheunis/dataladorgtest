@@ -41,7 +41,6 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           enable_jekyll: false
           publish_dir: ./output
-          cname: www.psychoinformatics.de
           user_name: 'AutoBuild'
           user_email: 'blackhole@psychoinformatics.de'
           commit_message: ${{ github.event.head_commit.message }}
